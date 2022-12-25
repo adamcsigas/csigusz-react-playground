@@ -1,4 +1,4 @@
-import { HelloWorld } from "./HelloWorld";
+import HelloWorld from './HelloWorld';
 import { ComponentStory } from '@storybook/react';
 import { Meta } from '@storybook/react/types-6-0';
 import HelloWorldDocs from './helloWorldDocs.mdx';
