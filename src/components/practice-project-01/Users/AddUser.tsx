@@ -1,5 +1,6 @@
 import React, { SyntheticEvent } from "react";
 import Card from "../UI/Card/Card";
+import Button from "../UI/Button/Button";
 import classes from "./AddUser.module.css";
 
 type AddUserProps = {
@@ -18,7 +19,7 @@ const AddUser = (props: AddUserProps) => {
                 <input id="username" type="text"/>
                 <label htmlFor="age">Age (years)</label>
                 <input id="age" type="number"/>
-                <button type="submit">Add User</button>
+                <Button type="submit" onClick={() => {}}>Add user</Button>
             </form>
         </Card>
     );
