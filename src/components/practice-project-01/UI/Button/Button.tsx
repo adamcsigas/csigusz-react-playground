@@ -3,7 +3,7 @@ import classes from './Button.module.css';
 
 type ButtonProps = {
     children: ReactNode,
-    onClick: () => void,
+    onClick?: () => void,
     type?: 'submit' | 'reset' | 'button',
 };
 
