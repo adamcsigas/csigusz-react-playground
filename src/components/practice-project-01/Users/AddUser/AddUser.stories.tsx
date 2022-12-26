@@ -4,8 +4,13 @@ import { Meta } from '@storybook/react/types-6-0';
 import AddUserDocs from './AddUserDocs.mdx';
 
 export default {
-    title: 'Components/AddUser',
+    title: 'Components/Users/AddUser',
     component: AddUser,
+    argTypes: {
+        onAddUser: {
+            action: 'onAddUser clicked',
+        },
+    },
     parameters: {
         docs: {
             page: AddUserDocs,
@@ -13,9 +18,10 @@ export default {
     },
 } as Meta;
 
-export const Base: ComponentStory<typeof AddUser> = function () {
+export const Base: ComponentStory<typeof AddUser> = function (args) {
+    const { onAddUser } = args;
     return (
-        <AddUser />
+        <AddUser onAddUser={onAddUser} />
     );
 }
 

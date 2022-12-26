@@ -4,7 +4,7 @@ import clsx from 'clsx';
 
 type CardProps = {
     children: ReactNode,
-    className: string,
+    className?: string,
 };
 
 const Card = (props: CardProps) => {

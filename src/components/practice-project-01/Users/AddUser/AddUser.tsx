@@ -1,15 +1,24 @@
 import React, { SyntheticEvent, ChangeEvent, useState } from "react";
-import Card from "../UI/Card/Card";
-import Button from "../UI/Button/Button";
+import Card from "../../UI/Card/Card";
+import Button from "../../UI/Button/Button";
 import classes from "./AddUser.module.css";
 
 type AddUserProps = {
-
+    onAddUser: (name: string, age: number) => void;
 };
 
 const AddUser = (props: AddUserProps) => {
+    const { onAddUser } = props;
     const [userName, setUserName] = useState<string>('');
     const [userAge, setUserAge] = useState<string>('');
+
+    const validateAddUserData = () => {
+        if (userName.trim().length === 0 || userAge.trim().length === 0) {
+            return false;
+        }
+
+        return +userAge >= 1;
+    }
 
     const resetForm = () => {
         setUserName('');
@@ -18,7 +27,12 @@ const AddUser = (props: AddUserProps) => {
 
     const handleSubmit = (event: SyntheticEvent) => {
         event.preventDefault();
-        console.log(userName, userAge);
+
+        if (!validateAddUserData()) {
+            return;
+        }
+
+        onAddUser(userName, +userAge);
         resetForm();
     }
 
