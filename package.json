@@ -1,5 +1,6 @@
 {
   "name": "untitled",
+  "homepage": "https://adamcsigas.github.io/react-playground",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +10,6 @@
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.10",
     "@types/react": "^18.0.26",
-    "@types/react-dom": "^18.0.10",
     "clsx": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -23,7 +23,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -65,7 +67,9 @@
     "@storybook/preset-create-react-app": "^4.1.2",
     "@storybook/react": "^6.5.15",
     "@storybook/testing-library": "0.0.13",
+    "@types/react-dom": "^18.0.10",
     "babel-plugin-named-exports-order": "0.0.2",
+    "gh-pages": "^4.0.0",
     "prop-types": "^15.8.1",
     "webpack": "^5.75.0"
   }
