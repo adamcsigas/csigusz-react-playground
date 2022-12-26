@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/reactplayground/static/js/main.dc9e7319.js",
-    "index.html": "/reactplayground/index.html",
-    "main.dc9e7319.js.map": "/reactplayground/static/js/main.dc9e7319.js.map"
+    "main.js": "/csigusz-react-playground/static/js/main.dc9e7319.js",
+    "index.html": "/csigusz-react-playground/index.html",
+    "main.dc9e7319.js.map": "/csigusz-react-playground/static/js/main.dc9e7319.js.map"
   },
   "entrypoints": [
     "static/js/main.dc9e7319.js"
