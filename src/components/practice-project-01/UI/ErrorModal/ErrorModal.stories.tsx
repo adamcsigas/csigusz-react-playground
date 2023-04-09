@@ -29,7 +29,7 @@ export default {
 export const Base: ComponentStory<typeof ErrorModal> = function (args) {
     const { title, message } = args;
     return (
-        <ErrorModal title={title} message={message} />
+        <ErrorModal onConfirm={() => {}} title={title} message={message} />
     );
 }
 
