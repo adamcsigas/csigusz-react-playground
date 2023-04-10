@@ -1,9 +1,9 @@
 import React from 'react';
-import HelloWorld from './components/HelloWorld/HelloWorld';
+import Randomizer from "./components/quacksOfQuedlingburgRandomizer/Randomizer";
 
 function App() {
   return (
-      <HelloWorld />
+      <Randomizer />
   );
 }
 
