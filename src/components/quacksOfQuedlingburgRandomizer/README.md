@@ -25,3 +25,4 @@ your selected expansions.
 - add material ui
 - save `generateIngredientBooks()` result to localStorage
 - update UI
+- solve type issue in `Randomizer.tsx` x)
