@@ -14,6 +14,6 @@ However, this implementation does not yet take into consideration certain aspect
 such as owned extensions of the game.
 
 ## Features
-- `Selection`: Choose which expansions to include in the randomizer.
+- !!!WIP!!! `Selection`: Choose which expansions to include in the randomizer.
 - `Randomizer`: Click the button to generate a set of books, patients, and witches for your next game based on 
 your selected expansions.
