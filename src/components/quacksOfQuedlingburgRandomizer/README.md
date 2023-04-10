@@ -12,6 +12,7 @@ include in the next game.
 - I created a randomizer button and some basic UI which will generate a random set of books. 
 However, this implementation does not yet take into consideration certain aspects of the setup process,
 such as owned extensions of the game.
+- update README
 
 ## Features
 - `Randomizer`: Click the button to generate a set of books, patients, and witches for your next game based on 
