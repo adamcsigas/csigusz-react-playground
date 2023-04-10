@@ -18,8 +18,10 @@ such as owned extensions of the game.
 your selected expansions.
 
 ## Planned features
-- `Selection`: Choose which expansions to include in the randomizer.
+- `Selection`: Choose which extensions to include in the randomizer.
 - language options
+- Randomize which witches to use, in case you own and want to play with 'The Herb Witches' extension.
+- Randomize which three patients are available, in case you own and want to play with 'The Alchemists' extension.
 
 ## Planned dev stuff
 - add material ui
