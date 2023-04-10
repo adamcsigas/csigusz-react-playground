@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/csigusz-react-playground/static/js/main.dc9e7319.js",
+    "main.css": "/csigusz-react-playground/static/css/main.43f524da.css",
+    "main.js": "/csigusz-react-playground/static/js/main.295cf614.js",
     "index.html": "/csigusz-react-playground/index.html",
-    "main.dc9e7319.js.map": "/csigusz-react-playground/static/js/main.dc9e7319.js.map"
+    "main.43f524da.css.map": "/csigusz-react-playground/static/css/main.43f524da.css.map",
+    "main.295cf614.js.map": "/csigusz-react-playground/static/js/main.295cf614.js.map"
   },
   "entrypoints": [
-    "static/js/main.dc9e7319.js"
+    "static/css/main.43f524da.css",
+    "static/js/main.295cf614.js"
   ]
 }
