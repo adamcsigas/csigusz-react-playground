@@ -14,6 +14,14 @@ However, this implementation does not yet take into consideration certain aspect
 such as owned extensions of the game.
 
 ## Features
-- !!!WIP!!! `Selection`: Choose which expansions to include in the randomizer.
 - `Randomizer`: Click the button to generate a set of books, patients, and witches for your next game based on 
 your selected expansions.
+
+## Planned features
+- `Selection`: Choose which expansions to include in the randomizer.
+- language options
+
+## Planned dev stuff
+- add material ui
+- save `generateIngredientBooks()` result to localStorage
+- update UI
