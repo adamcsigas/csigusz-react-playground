@@ -1,5 +1,5 @@
 ## The reason behind this project
-Quacks of Quedlinburg is a board game with a lengthy setup process. This randomizer aims to reduce setup time
+[Quacks of Quedlinburg](https://boardgamegeek.com/boardgame/244521/quacks-quedlinburg) is a board game with a lengthy setup process. This randomizer aims to reduce setup time
 by generating a random selection of books, patients, and witches based on the extensions you own or want to 
 include in the next game.
 
