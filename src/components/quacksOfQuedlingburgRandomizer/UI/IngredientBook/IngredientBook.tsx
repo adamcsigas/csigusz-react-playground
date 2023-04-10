@@ -8,16 +8,18 @@ type IngredientBookProps = {
 };
 const IngredientBook = (props: IngredientBookProps) => {
     const { ingredientName, ingredientValue } = props;
+    const bgColorClass = ingredientName.split(' ').join('-');
+
     return(
-            <div className={classes.ingredientContainer}>
-                <div className={classes.ingredientName}>
-                    {ingredientName}
-                </div>
-                <div className={classes.break} />
-                <div className={classes.ingredientValue}>
-                    {ingredientValue}
-                </div>
+        <div className={`${classes.ingredientContainer} ${classes[bgColorClass]}`}>
+            <div className={classes.ingredientName}>
+                {ingredientName}
             </div>
+            <div className={classes.break} />
+            <div className={classes.ingredientValue}>
+                {ingredientValue}
+            </div>
+        </div>
     )
 };
 

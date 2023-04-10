@@ -5,9 +5,32 @@
     border: 3px solid black;
     width: 300px;
     height: 400px;
-    background: #F8eeec;
     border-radius: 10px;
     margin: 10px;
+}
+
+.ingredientContainer.Crow-Skull {
+    background-color: #0461a7;
+}
+
+.ingredientContainer.Toadstool {
+    background-color: #cf1b08;
+}
+
+.ingredientContainer.Mandrake {
+    background-color: #fbe90a;
+}
+
+.ingredientContainer.Garden-Spider {
+    background-color: #72d611;
+}
+
+.ingredientContainer.Ghost\'s-Breath {
+    background-color: #bf3a9a;
+}
+
+.ingredientContainer.Locoweed {
+    background-color: #7caf6e;
 }
 
 .ingredientName {
