@@ -1,5 +1,5 @@
 import _ from "lodash";
-import { IngredientBook } from "../interfaces/GameEntities";
+import { IngredientBook } from "../types/GameEntities";
 import { BOOK_SET_VALUES, INGREDIENT_BOOK_NAMES } from "../constants/gameEntities";
 
 function getBookSetValue() {

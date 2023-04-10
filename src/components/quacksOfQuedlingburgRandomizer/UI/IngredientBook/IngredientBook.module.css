@@ -1,0 +1,25 @@
+.ingredientContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    width: 300px;
+    height: 400px;
+    background: #F8eeec;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.ingredientName {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.ingredientValue {
+    font-size: 200px;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
